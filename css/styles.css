@@ -1,3 +1,8 @@
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
 @media screen and (max-width: 768px) {
   .column {
     width: 300px;
@@ -16,5 +21,11 @@
 @media screen and (max-width: 480px) {
   body {
     background-color: teal;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: red;
   }
 }
